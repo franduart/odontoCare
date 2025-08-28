@@ -23,6 +23,3 @@ Projeto desenvolvido em **React.js**, com design responsivo e menu mobile intera
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
 
 
-
-## 📂 Estrutura de Pastas
-
