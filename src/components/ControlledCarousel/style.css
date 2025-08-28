@@ -1,0 +1,23 @@
+.carousel-item{
+    background-color: #f5ebe0;
+    height: 100%;
+}
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+.carousel-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-caption img{
+   border-radius: 100%;
+   width: 150px;
+   height: 150px;
+}
+.star {
+ color: rgb(224, 224, 45);
+ font-size: 1.2rem;
+ font-weight: bold;
+}

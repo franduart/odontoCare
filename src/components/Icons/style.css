@@ -1,0 +1,13 @@
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+
+}
+.icons a{
+    text-decoration: none;
+     color: #219ebc;
+      font-size: 1.5rem;
+}

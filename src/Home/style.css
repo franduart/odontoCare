@@ -1,0 +1,68 @@
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+.divText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+.divText h1{
+    color: #1d8fab;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.Hero div{
+    max-width: 80%;
+    margin: auto;
+}
+.divImg{
+    background-color: #219ebc;
+    border-radius: 30% 70% 7% 93% / 66% 43% 57% 34%  ;
+}
+.Hero div img{
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 33% 67% 70% 30% / 30% 46% 54% 70% ;
+}
+
+.agendar{
+    background-color: #1d8fab;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 10px #00000049;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+@media screen and  (max-width:768px){
+    .Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin: 70px auto;
+    
+}
+.Hero div img{
+    display: none;
+}
+}
